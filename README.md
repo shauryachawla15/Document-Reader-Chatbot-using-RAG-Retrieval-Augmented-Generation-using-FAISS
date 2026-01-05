@@ -69,5 +69,39 @@ doc-reader-chatbot/
 │   └── style.css
 └── README.md
 
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd doc-reader-chatbot
+
+2️⃣ Create a virtual environment (optional but recommended)
+python -m venv venv
+venv\Scripts\activate
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Set OpenAI API Key
+
+Windows (PowerShell):
+
+setx OPENAI_API_KEY "your_api_key_here"
+
+
+⚠️ Restart the terminal after setting the key.
+
+5️⃣ Run the application
+python app.py
+
+
+Open your browser and visit:
+
+http://127.0.0.1:5000
+
 
 
