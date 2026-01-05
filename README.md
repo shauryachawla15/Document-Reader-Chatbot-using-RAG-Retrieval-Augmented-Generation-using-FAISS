@@ -40,6 +40,14 @@ Instead of relying on the LLM’s internal knowledge, the chatbot retrieves the 
 
 ---
 
+## OUTPUT (SCREENSHOTS)
+
+<img width="1541" height="742" alt="Screenshot 2026-01-05 141903" src="https://github.com/user-attachments/assets/124ff32e-72bf-4a23-870b-efc5caafcf3f" />
+<img width="1477" height="798" alt="Screenshot 2026-01-05 141951" src="https://github.com/user-attachments/assets/7716441a-54eb-4766-99d7-ffe784992951" />
+<img width="1457" height="725" alt="Screenshot 2026-01-05 142149" src="https://github.com/user-attachments/assets/ecd71726-8cce-4663-920d-35b6107001fe" />
+
+---
+
 ## 🛠️ Tech Stack
 
 | Component | Technology |
@@ -69,11 +77,7 @@ doc-reader-chatbot/
 │   └── style.css
 └── README.md
 
----
-
-<img width="1541" height="742" alt="Screenshot 2026-01-05 141903" src="https://github.com/user-attachments/assets/124ff32e-72bf-4a23-870b-efc5caafcf3f" />
-<img width="1477" height="798" alt="Screenshot 2026-01-05 141951" src="https://github.com/user-attachments/assets/7716441a-54eb-4766-99d7-ffe784992951" />
-<img width="1457" height="725" alt="Screenshot 2026-01-05 142149" src="https://github.com/user-attachments/assets/ecd71726-8cce-4663-920d-35b6107001fe" />
+-
 
 
 
