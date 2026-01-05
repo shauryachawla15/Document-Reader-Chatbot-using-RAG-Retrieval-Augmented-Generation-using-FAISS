@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RAG Document Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>📄 Document Q&A Chatbot</h1>
+
+        <input id="question" placeholder="Ask something about the document">
+        <button onclick="ask()">Ask</button>
+
+        <div id="answer"></div>
+    </div>
+
+    <script>
+        function ask() {
+            const q = document.getElementById("question").value;
+            document.getElementById("answer").innerText = "Thinking...";
+
+            fetch("/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ question: q })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById("answer").innerText = data.answer;
+                });
+        }
+    </script>
+</body>
+
+</html>
